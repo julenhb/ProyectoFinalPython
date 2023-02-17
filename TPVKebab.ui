@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>796</width>
+    <height>708</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 230, 230);</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>22</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(203, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>JKebab</string>
+    </property>
+   </widget>
+   <widget class="QDateTimeEdit" name="fechayhora">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>261</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+    <property name="currentSectionIndex">
+     <number>0</number>
+    </property>
+    <property name="timeSpec">
+     <enum>Qt::UTC</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOK">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>590</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 28pt &quot;Impact&quot;;
+background-color: rgb(255, 255, 0);
+color: rgb(203, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEditCalcPantalla">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>590</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelEuro">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>610</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 20pt &quot;Impact&quot;;</string>
+    </property>
+    <property name="text">
+     <string>€</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelUds">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>600</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(80, 80, 80);</string>
+    </property>
+    <property name="text">
+     <string>Total (IVA inc.)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="kTernera">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>170</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>131</width>
+      <height>121</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(170, 0, 0);
+background-image: url(C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas/KTernera.jpg)</string>
+    </property>
+    <property name="text">
+     <string>Kebab Ternera 
+ 
+ 
+ 
+</string>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="kPollo">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>170</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 49, 52);
+background-image: url(C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas/KPollo.jpg);</string>
+    </property>
+    <property name="text">
+     <string>Kebab Pollo 
+ 
+ 
+ 
+</string>
+    </property>
+    <property name="pixmap" stdset="0">
+     <pixmap>src/KTernera.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="kMixto">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>170</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 121, 128);
+background-image: url(C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas/KMixto.jpg);</string>
+    </property>
+    <property name="text">
+     <string>Kebab Mixto 
+ 
+ 
+ 
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dTernera">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>310</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(170, 0, 0);
+background-image: url(C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas/DTernera.png);</string>
+    </property>
+    <property name="text">
+     <string>Durüm Ternera 
+ 
+ 
+ 
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dPollo">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>310</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(0, 0, 0);
+background-image: url(C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas/DPollo.png);</string>
+    </property>
+    <property name="text">
+     <string>Durüm Pollo 
+ 
+ 
+ 
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dMixto">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>310</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(170, 0, 0);
+background-image: url(C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas/DMixto.png);</string>
+    </property>
+    <property name="text">
+     <string>Durüm Mixto 
+ 
+ 
+ 
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lahmacun">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>450</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(170, 0, 0);
+background-image: url(C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas/Lahmacun.jpg);</string>
+    </property>
+    <property name="text">
+     <string>Lahmacun 
+ 
+ 
+ 
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="patatas">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>450</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(170, 0, 0);
+background-image: url(C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas/Patatas.jpg);</string>
+    </property>
+    <property name="text">
+     <string>Patatas 
+  (Ración)
+ 
+ 
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plato">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>450</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(170, 0, 0);
+background-image: url(C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas/Plato.png);</string>
+    </property>
+    <property name="text">
+     <string>Plato Carne 
+ con Patatas 
+ 
+ 
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteBtn">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>100</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(203, 0, 0);
+font: 16pt &quot;Impact&quot;;
+color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Eliminar</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="lista">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>261</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="limpiarPed">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>100</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(203, 0, 0);
+font: 16pt &quot;Impact&quot;;
+color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Limpiar pedido</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textDescription">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>590</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelUds_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>591</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(80, 80, 80);</string>
+    </property>
+    <property name="text">
+     <string>Descripción del producto:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>796</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="src/reescaladas/rscfinal.qrc"/>
+ </resources>
+ <connections/>
+</ui>

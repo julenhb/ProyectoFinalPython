@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="C:/Users/julen/PycharmProjects/ProyectoFinal/src/reescaladas">
+    <file>DMixto.png</file>
+    <file>DPollo.png</file>
+    <file>DTernera.png</file>
+    <file>KMixto.jpg</file>
+    <file>KPollo.jpg</file>
+    <file>KTernera.jpg</file>
+    <file>Lahmacun.jpg</file>
+    <file>Patatas.jpg</file>
+    <file>Plato.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,11 @@
+Factura desglosada:
+
+Productos que contiene el pedido: 
+
+['Lahmacun  4.30', 'Lahmacun  4.30', 'Lahmacun  4.30']
+
+Precio final sin IVA: 12.90€
+Importe total con IVA incluido: 15.61€
+
+¡Que te aproveche!
+ Gracias por seguir rindiendo culto al Kebab con nosotros.
